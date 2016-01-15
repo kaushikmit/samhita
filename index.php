@@ -2,13 +2,13 @@
 <html lang="en">
 
 
-<!-- Mirrored from themes.startbootstrap.com/vitality-v1.3.6/agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Jan 2016 13:51:07 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Vitality</title>
+    <title>Samhita 2K16</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
     <!-- Retina.js - Load first for faster HQ mobile images. -->
@@ -101,7 +101,7 @@
     <header style="background-image: url('assets/img/bg-header.jpg');">
         <div class="intro-content">
             <img src="assets/img/profile.png" class="img-responsive img-centered" alt="">
-            <div class="brand-name">Vitality</div>
+            <div class="brand-name">SAMHITA 16</div>
             <hr class="colored">
             <div class="brand-name-subtext">by Start Bootstrap</div>
         </div>
@@ -113,7 +113,7 @@
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-lg-12 wow fadeIn">
-                    <h1>A Theme for Creatives &amp; Agencies</h1>
+                    <h1>Get Ready for the Ultimate Technical Extravenza !</h1>
                     <p>Vitality is the perfect theme for a freelance professional or an agency.</p>
                     <hr class="colored">
                 </div>
@@ -121,29 +121,29 @@
             <div class="row text-center content-row">
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
                     <div class="about-content">
-                        <i class="fa fa-eye fa-4x"></i>
-                        <h3>Retina Ready</h3>
+                        <i class="fa fa-code fa-4x"></i>
+                        <h3>50+ Events</h3>
                         <p>This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
                     <div class="about-content">
-                        <i class="fa fa-edit fa-4x"></i>
-                        <h3>Easy to Edit</h3>
+                        <i class="fa fa-television fa-4x"></i>
+                        <h3>10+ Workshops</h3>
                         <p>Vitality is built using Bootstrap 3, and is easy to edit and customize. LESS files are included as well for deeper customization.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
                     <div class="about-content">
-                        <i class="fa fa-tablet fa-4x"></i>
-                        <h3>Responsive</h3>
+                        <i class="fa fa-user-plus fa-4x"></i>
+                        <h3>100+ Colleges</h3>
                         <p>When building this theme, we've paid close attention to how it looks on various screen sizes. Try it out on a phone or tablet!</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
                     <div class="about-content">
-                        <i class="fa fa-heart fa-4x"></i>
-                        <h3>Built with Love</h3>
+                        <i class="fa fa-money fa-4x"></i>
+                        <h3>5L+ Cash Prizes</h3>
                         <p>All of our themes are crafted with care, and we strive to make your experience as one of our customers the best as possible.</p>
                     </div>
                 </div>
