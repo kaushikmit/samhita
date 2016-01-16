@@ -19,6 +19,9 @@
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="http://threejs.org/examples/js/libs/tween.min.js"></script>
 
+    
+    
+
     <!-- Retina.js - Load first for faster HQ mobile images. -->
     <script src="assets/js/plugins/retina/retina.min.js"></script>
     <!-- Font Awesome -->
@@ -444,57 +447,7 @@
                     <hr class="colored">
                 </div>
             </div>
-            <div class="row content-row">
-                <div class="col-md-4">
-                    <div class="pricing-item featured-first">
-                        <h3>Basic</h3>
-                        <hr class="colored">
-                        <div class="price"><span class="number"><sup>$</sup>25</span> / month</div>
-                        <ul class="list-group">
-                            <li class="list-group-item">60 Users</li>
-                            <li class="list-group-item">Unlimited Forums</li>
-                            <li class="list-group-item">Unlimited Reports</li>
-                            <li class="list-group-item">3,000 Entries per Month</li>
-                            <li class="list-group-item">200 MB Storage</li>
-                            <li class="list-group-item">Unlimited Support</li>
-                        </ul>
-                        <a href="#" class="btn btn-outline-dark">Sign Up</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pricing-item featured">
-                        <h3>Plus</h3>
-                        <hr class="colored">
-                        <div class="price"><span class="number"><sup>$</sup>50</span> / month</div>
-                        <ul class="list-group">
-                            <li class="list-group-item"><strong>60</strong> Users</li>
-                            <li class="list-group-item">Unlimited Forums</li>
-                            <li class="list-group-item">Unlimited Reports</li>
-                            <li class="list-group-item"><strong>3,000</strong> Entries per Month</li>
-                            <li class="list-group-item"><strong>200 MB</strong> Storage</li>
-                            <li class="list-group-item">Unlimited Support</li>
-                        </ul>
-                        <a href="#" class="btn btn-outline-dark">Sign Up</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pricing-item featured-last">
-                        <h3>Premium</h3>
-                        <hr class="colored">
-                        <div class="price"><span class="number"><sup>$</sup>150</span> / month</div>
-                        <ul class="list-group">
-                            <li class="list-group-item">60 Users</li>
-                            <li class="list-group-item">Unlimited Forums</li>
-                            <li class="list-group-item">Unlimited Reports</li>
-                            <li class="list-group-item">3,000 Entries per Month</li>
-                            <li class="list-group-item">200 MB Storage</li>
-                            <li class="list-group-item">Unlimited Support</li>
-                        </ul>
-                        <a href="#" class="btn btn-outline-dark">Sign Up</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+            
     </section>
     <section class="cta-form bg-dark">
         <div class="container text-center">
@@ -807,6 +760,11 @@
     <script src="assets/js/vitality.js"></script>
     <!-- Style Switcher Scripts - Demo Purposes Only! -->
     <script src="assets/demo/style.switcher.js"></script>
+    <!--Notyjs-->
+    <script type="text/javascript" src="assets/js/jquery.noty.packaged.min.js"></script>
+    <!--Notifyjs-->
+    <script type="text/javascript" src="assets/js/notify.js"></script>
+    <script type="text/javascript" src="assets/js/notify.min.js"></script>
     
     <!--Jquery for CSS3 Animations -->
     <script>
@@ -830,6 +788,14 @@
         $(this).addClass("animated bounceIn");
         console.log('Hello')
     });
+    
+   $.notify("Samhita is scheduled on March 11,12", "info");
+   $.notify("Event Registrations have begun !", "info");
+   $.notify("Workshop Registrations have begun !", "info");
+
+    
+
     </script>
+    <!--Notifications>
 </body>
 </html>
