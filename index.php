@@ -11,6 +11,8 @@
     <title>Samhita 2K16</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    
     <!-- Retina.js - Load first for faster HQ mobile images. -->
     <script src="assets/js/plugins/retina/retina.min.js"></script>
     <!-- Font Awesome -->
@@ -78,20 +80,24 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">ABOUT US</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#process">Process</a>
+                        <a class="page-scroll" href="#process">EVENTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#work">Work</a>
+                        <a class="page-scroll" href="#work">PARTNERS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#pricing">Pricing</a>
+                        <a class="page-scroll" href="#pricing">WORKSHOPS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">LOGIN/SIGNUP</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">CONTACT</a>
+                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -101,9 +107,7 @@
     <header style="background-image: url('assets/img/bg-header.jpg');">
         <div class="intro-content">
             <img src="assets/img/profile.png" class="img-responsive img-centered" alt="">
-            <div class="brand-name">SAMHITA 16</div>
-            <hr class="colored">
-            <div class="brand-name-subtext">by Start Bootstrap</div>
+            <div id="samhitaintro" class="brand-name">SAMHITA 16</div>
         </div>
         <div class="scroll-down">
             <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
@@ -114,7 +118,6 @@
             <div class="row text-center">
                 <div class="col-lg-12 wow fadeIn">
                     <h1>Get Ready for the Ultimate Technical Extravenza !</h1>
-                    <p>Vitality is the perfect theme for a freelance professional or an agency.</p>
                     <hr class="colored">
                 </div>
             </div>
@@ -122,29 +125,28 @@
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
                     <div class="about-content">
                         <i class="fa fa-code fa-4x"></i>
-                        <h3>50+ Events</h3>
-                        <p>This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!</p>
+                        <h3 id="event">50+ Events</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
                     <div class="about-content">
                         <i class="fa fa-television fa-4x"></i>
-                        <h3>10+ Workshops</h3>
-                        <p>Vitality is built using Bootstrap 3, and is easy to edit and customize. LESS files are included as well for deeper customization.</p>
+                        <h3 id="event1">10+ Workshops</h3>
+                        
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
                     <div class="about-content">
                         <i class="fa fa-user-plus fa-4x"></i>
-                        <h3>100+ Colleges</h3>
-                        <p>When building this theme, we've paid close attention to how it looks on various screen sizes. Try it out on a phone or tablet!</p>
+                        <h3 id="event2">100+ Colleges</h3>
+                        
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
                     <div class="about-content">
                         <i class="fa fa-money fa-4x"></i>
-                        <h3>5L+ Cash Prizes</h3>
-                        <p>All of our themes are crafted with care, and we strive to make your experience as one of our customers the best as possible.</p>
+                        <h3 id="event3">5L+ Cash Prizes</h3>
+                        
                     </div>
                 </div>
             </div>
@@ -154,201 +156,23 @@
         <div class="container text-center wow fadeIn">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Our Team</h2>
-                    <p>We are a group of digital marketers with a passion for great art that serves a practical purpose.</p>
-                    <hr class="colored">
-                </div>
-            </div>
-            <div class="row content-row">
-                <div class="col-lg-12">
-                    <div class="about-carousel">
-                        <div class="item">
-                            <img src="assets/img/people/1.jpg" class="img-responsive" alt="">
-                            <div class="caption">
-                                <h3>Patricia West</h3>
-                                <hr class="colored">
-                                <p>Marketing Director</p>
-                                <ul class="list-inline social">
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <h2>ABOUT US</h2>
+                    <center>
+                   <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h3 class="section-heading">ABOUT MIT</h4>
+                               <p class="text-justify"><font color="black">Madras Institute of Technology, a pioneer institution and a part of Anna University is a center of technical excellence and a temple of learning. Imparting knowledge and a unique culture since 1949, MIT was an innovator of sorts right from its birth and continues to be recognized as a trend-setter and a leader in technical education. It has churned out quite a few illustrious personalities like Dr. A.P.J.Abdul Kalam, Shri Sujatha, Shri. K.B.Chandrasekar and many more.</h5></font></p>
                         </div>
-                        <div class="item">
-                            <img src="assets/img/people/2.jpg" class="img-responsive" alt="">
-                            <div class="caption">
-                                <h3>Howard Scott</h3>
-                                <hr class="colored">
-                                <p>Sales Manager</p>
-                                <ul class="list-inline social">
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/people/3.jpg" class="img-responsive" alt="">
-                            <div class="caption">
-                                <h3>Kate Williams</h3>
-                                <hr class="colored">
-                                <p>Creative Director</p>
-                                <ul class="list-inline social">
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-dribbble fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/people/4.jpg" class="img-responsive" alt="">
-                            <div class="caption">
-                                <h3>Amy Vanderbute</h3>
-                                <hr class="colored">
-                                <p>Graphic Artist</p>
-                                <ul class="list-inline social">
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-dribbble fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/people/5.jpg" class="img-responsive" alt="">
-                            <div class="caption">
-                                <h3>Jeremy Davidson</h3>
-                                <hr class="colored">
-                                <p>Web Developer</p>
-                                <ul class="list-inline social">
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-github fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="col-sm-6">
+                    <h3 class="section-heading">ABOUT SAMHITA</h4>
+                               <p class="text-justify"><font color="black">The most awaited and exciting technical symposium is here to wreak havoc in your brains. Organised by the Information Technology Association (ITA), Madras Institute of technology, Samhita is guaranteed to provide two days of wholesome entertainment and some exercise to your brain with awesome internships and amazing prizes.Register now to win amazing prizes and to enjoy 2 days of Unbounded Dexterity across India !</h5></font></p>
                         </div>
                     </div>
+                </center>
+                <hr class="colored">
                 </div>
             </div>
-        </div>
-    </section>
-    <aside class="cta-quote" style="background-image: url('assets/img/bg-aside.jpg');">
-        <div class="container wow fadeIn">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <span class="quote">Good <span class="text-primary">design</span> is finding that perfect balance between the way something <span class="text-primary">looks</span> and how it <span class="text-primary">functions</span>.</span>
-                    <hr class=" colored">
-                    <a class="btn btn-outline-light page-scroll" href="#contact">Let's Find It</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-    <section id="process" class="services">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-12 wow fadeIn">
-                    <h2>Our Process</h2>
-                    <hr class="colored">
-                    <p>Here is an overview of how we approach each new project.</p>
-                </div>
-            </div>
-            <div class="row content-row">
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-clipboard"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Plan</h3>
-                            <ul>
-                                <li>Client interview</li>
-                                <li>Gather consumer data</li>
-                                <li>Create content strategy</li>
-                                <li>Analyze research</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-pencil"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Create</h3>
-                            <ul>
-                                <li>Build wireframe</li>
-                                <li>Gather client feedback</li>
-                                <li>Code development</li>
-                                <li>Marketing review</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-rocket"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Launch</h3>
-                            <ul>
-                                <li>Deploy website</li>
-                                <li>Market product launch</li>
-                                <li>Collect UX data</li>
-                                <li>Quarterly maintenence</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="work" class="bg-gray">
-        <div class="container text-center wow fadeIn">
-            <h2>Our Work</h2>
-            <hr class="colored">
-            <p>Examples of our work which represent our design and marketing capabilities.</p>
-        </div>
     </section>
     <section class="portfolio-carousel wow fadeIn">
         <div class="item" style="background-image: url('assets/img/portfolio/bg-1.jpg')">
@@ -426,9 +250,8 @@
     </section>
     <section>
         <div class="container text-center wow fadeIn">
-            <h2>Portfolio</h2>
-            <hr class="colored">
-            <p>Here are some other projects that we've worked on.</p>
+            <h2>EVENTS</h2>
+                <hr class="colored">
             <div class="row content-row">
                 <div class="col-lg-12">
                     <div class="portfolio-filter">
@@ -437,13 +260,13 @@
                                 <span class="filter active" data-filter="identity graphic logo web">All</span>
                             </li>
                             <li>
-                                <span class="filter" data-filter="identity">Identity</span>
+                                <span class="filter" data-filter="identity">Onsite</span>
                             </li>
                             <li>
-                                <span class="filter" data-filter="graphic">Graphic</span>
+                                <span class="filter" data-filter="graphic">Online</span>
                             </li>
                             <li>
-                                <span class="filter" data-filter="web">Web</span>
+                                <span class="filter" data-filter="web">General</span>
                             </li>
                         </ul>
                     </div>
@@ -603,62 +426,7 @@
     </section>
     <section class="testimonials bg-gray">
         <div class="container wow fadeIn">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="testimonials-carousel">
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
-                                    <hr class="colored">
-                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-img">
-                                            <img src="assets/img/testimonials/1.jpg" class="img-circle img-responsive" alt="">
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <span class="name">Jim Walker</span>
-                                            <p class="small">CEO of GeneriCorp</p>
-                                            <div class="stars">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
-                                    <hr class="colored">
-                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-img">
-                                            <img src="assets/img/testimonials/1.jpg" class="img-circle img-responsive" alt="">
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <span class="name">Jim Walker</span>
-                                            <p class="small">CEO of GeneriCorp</p>
-                                            <div class="stars">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2>OUR PARTNERS</h2>
         </div>
     </section>
     <section id="pricing" class="pricing" style="background-image: url('assets/img/bg-pricing.jpg')">
@@ -994,39 +762,22 @@
         <a class="panel-button"><i class="fa fa-gear"></i></a>
         <!-- Colors -->
         <div class="segment">
-            <h4>Theme Colors</h4>
-            <a title="vitality-red" class="switcher red-bg"></a>
-            <a title="vitality-orange" class="switcher orange-bg"></a>
-            <a title="vitality-yellow" class="switcher yellow-bg"></a>
-            <a title="vitality-green" class="switcher green-bg"></a>
-            <a title="vitality-turquoise" class="switcher turquoise-bg"></a>
-            <a title="vitality-aqua" class="switcher aqua-bg"></a>
-            <a title="vitality-blue" class="switcher blue-bg"></a>
-            <a title="vitality-purple" class="switcher purple-bg"></a>
-            <a title="vitality-pink" class="switcher pink-bg"></a>
-            <a title="vitality-tan" class="switcher tan-bg"></a>
+            <h4>USER DASHBOARD</h4>
         </div>
         <div class="segment">
-            <h4>Samples</h4>
+            <h4>MENU</h4>
             <ul class="list-unstyled">
-                <li><a href="agency.html">Agency</a>
+                <li><a href="agency.html">HOME</a>
                 </li>
-                <li><a href="creative.html">Creative <strong><small>(NEW)</small></strong></a>
+                <li><a href="culinary.html">EVENTS</a>
                 </li>
-                <li><a href="culinary.html">Culinary</a>
+                <li><a href="fashion.html">WORKSHOPS</a>
                 </li>
-                <li><a href="fashion.html">Fashion</a>
+                <li><a href="legal.html">OFFERS</a>
                 </li>
-                <li><a href="legal.html">Legal</a>
-                </li>
-                <li><a href="video.html">Video</a>
+                <li><a href="video.html">LOGOUT</a>
                 </li>
             </ul>
-        </div>
-        <div class="segment">
-            <a href="index.html">
-                <small>Back to Preview Page</small>
-            </a>
         </div>
     </div>
     <!-- End Style Switcher -->
@@ -1050,8 +801,29 @@
     <script src="assets/js/vitality.js"></script>
     <!-- Style Switcher Scripts - Demo Purposes Only! -->
     <script src="assets/demo/style.switcher.js"></script>
+    
+    <!--Jquery for CSS3 Animations -->
+    <script>
+    $('#samhitaintro').mouseover(function() {
+        $(this).addClass("animated bounce");
+        console.log('Hello')
+    });
+    $('#event').mouseover(function() {
+        $(this).addClass("animated bounceIn");
+        console.log('Hello')
+    });
+    $('#event1').mouseover(function() {
+        $(this).addClass("animated bounceIn");
+        console.log('Hello')
+    });
+    $('#event2').mouseover(function() {
+        $(this).addClass("animated bounceIn");
+        console.log('Hello')
+    });
+    $('#event3').mouseover(function() {
+        $(this).addClass("animated bounceIn");
+        console.log('Hello')
+    });
+    </script>
 </body>
-
-
-<!-- Mirrored from themes.startbootstrap.com/vitality-v1.3.6/agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Jan 2016 13:55:29 GMT -->
 </html>
