@@ -18,8 +18,16 @@
     <script src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="http://threejs.org/examples/js/libs/tween.min.js"></script>
-
-    
+    <style>
+         #partners-slide .item{
+          margin: 3px;
+        }
+        #partners-slide.item img{
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+    </style>
     
 
     <!-- Retina.js - Load first for faster HQ mobile images. -->
@@ -46,7 +54,7 @@
     <!-- Uncomment the color scheme you want to use. -->
     <!-- <link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
+    <!--<link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="assets/css/vitality-green.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
@@ -92,16 +100,16 @@
                         <a class="page-scroll" href="#about">ABOUT US</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#process">EVENTS</a>
+                        <a class="page-scroll" href="#events">EVENTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#work">PARTNERS</a>
+                        <a class="page-scroll" href="#partners">PARTNERS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#pricing">WORKSHOPS</a>
+                        <a class="page-scroll" href="#workshops">WORKSHOPS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">LOGIN/SIGNUP</a>
+                        <a class="page-scroll" href="#login">LOGIN/SIGNUP</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">CONTACT</a>
@@ -123,7 +131,7 @@
             <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
         </div>
     </header>
-    <section id="about">
+    <section>
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-lg-12 wow fadeIn">
@@ -162,7 +170,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-gray">
+    <section class="bg-gray" id="about">
         <div class="container text-center wow fadeIn">
             <div class="row">
                 <div class="col-lg-12">
@@ -258,7 +266,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="events">
         <div class="container text-center wow fadeIn">
             <h2>EVENTS</h2>
                 <hr class="colored">
@@ -434,24 +442,50 @@
             </div>
         </div>
     </section>
-    <section class="testimonials bg-gray">
+    <section class="testimonials bg-gray" id="partners">
         <div class="container wow fadeIn">
             <h2>OUR PARTNERS</h2>
+            <div id="partners-slide">
+          
+              <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
+              <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
+              <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
+              <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
+              <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
+              <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
+              <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
+              <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
+             
+            </div>
         </div>
     </section>
-    <section id="pricing" class="pricing" style="background-image: url('assets/img/bg-pricing.jpg')">
+    <section id="workshops" class="pricing" style="background-image: url('assets/img/back3.jpg')">
         <div class="container wow fadeIn">
             <div class="row text-center">
                 <div class="col-lg-12">
                     <h2>WORKSHOPS</h2>
                     <hr class="colored">
+                    <div class="row">
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
+                    </div>
+
+
                 </div>
             </div>
             
     </section>
     <section class="cta-form bg-dark">
         <div class="container text-center">
-            <h3>Subscribe to our newsletter!</h3>
+            <h3>Get Notified!</h3>
             <hr class="colored">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -476,96 +510,31 @@
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="login">
+        <div class="container wow fadeIn">
+            <div class="row">
+                
+                    <center><h2>LOGIN/SIGNUP</h2></center>
+                    <center><hr class="colored"></center>
+                    <div class="col-lg-12 text-center" id="terminal-login">
+                    
+                    </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="contact" class="cta-form bg-dark">
         <div class="container wow fadeIn">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>LOGIN/SIGNUP</h2>
+                    <h2>GET IN TOUCH WITH US</h2>
                     <hr class="colored">
                     
                 </div>
             </div>
-            <div class="row content-row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-outline-dark">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+
     </section>
-    <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Buy Vitality Now!</a>
-    <footer class="footer" style="background-image: url('assets/img/bg-footer.jpg')">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-4 contact-details">
-                    <h4><i class="fa fa-phone"></i> Call</h4>
-                    <p>555-213-4567</p>
-                </div>
-                <div class="col-md-4 contact-details">
-                    <h4><i class="fa fa-map-marker"></i> Visit</h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                </div>
-                <div class="col-md-4 contact-details">
-                    <h4><i class="fa fa-envelope"></i> Email</h4>
-                    <p><a href="mailto:mail@example.com">mail@example.com</a>
-                    </p>
-                </div>
-            </div>
-            <div class="row social">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row copyright">
-                <div class="col-lg-12">
-                    <p class="small">&copy; 2015 Start Bootstrap Themes</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
     <!-- Portfolio Modals -->
     <!-- Example Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/bg-1.jpg')">
@@ -765,12 +734,17 @@
     <!--Notifyjs-->
     <script type="text/javascript" src="assets/js/notify.js"></script>
     <script type="text/javascript" src="assets/js/notify.min.js"></script>
+
+    <!--Terminal Emulator-->
+    
+    <script src="assets/terminal/js/jquery.mousewheel-min.js"></script>
+    <script src="assets/terminal/js/jquery.terminal-min.js"></script>
     
     <!--Jquery for CSS3 Animations -->
     <script>
     $('#samhitaintro').mouseover(function() {
         $(this).addClass("animated bounce");
-        console.log('Hello')
+        
     });
     $('#event').mouseover(function() {
         $(this).addClass("animated bounceIn");
@@ -788,14 +762,28 @@
         $(this).addClass("animated bounceIn");
         console.log('Hello')
     });
+
     
    $.notify("Samhita is scheduled on March 11,12", "info");
    $.notify("Event Registrations have begun !", "info");
    $.notify("Workshop Registrations have begun !", "info");
 
-    
+   $(document).ready(function() {
+ 
+  $("#partners-slide").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+ 
+});
+
 
     </script>
-    <!--Notifications>
+    
 </body>
 </html>
