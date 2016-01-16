@@ -12,7 +12,13 @@
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-    
+    <!--Particle Effects for Header -->
+    <script src="http://threejs.org/build/three.min.js"></script>
+    <script src="http://threejs.org/examples/js/renderers/Projector.js"></script>
+    <script src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/tween.min.js"></script>
+
     <!-- Retina.js - Load first for faster HQ mobile images. -->
     <script src="assets/js/plugins/retina/retina.min.js"></script>
     <!-- Font Awesome -->
@@ -104,12 +110,13 @@
         </div>
         <!-- /.container -->
     </nav>
-    <header style="background-image: url('assets/img/bg-header.jpg');">
+    <!--style="background-image: url('assets/img/back3.jpg');"-->
+    <header class="video">
         <div class="intro-content">
-            <img src="assets/img/profile.png" class="img-responsive img-centered" alt="">
             <div id="samhitaintro" class="brand-name">SAMHITA 16</div>
+
         </div>
-        <div class="scroll-down">
+        <div class="scroll-down animated infinite bounce">
             <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
         </div>
     </header>
@@ -124,27 +131,27 @@
             <div class="row text-center content-row">
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
                     <div class="about-content">
-                        <i class="fa fa-code fa-4x"></i>
+                        <i class="fa fa-code fa-4x animated infinite bounce"></i>
                         <h3 id="event">50+ Events</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
                     <div class="about-content">
-                        <i class="fa fa-television fa-4x"></i>
+                        <i class="fa fa-television fa-4x animated infinite bounce"></i>
                         <h3 id="event1">10+ Workshops</h3>
                         
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
                     <div class="about-content">
-                        <i class="fa fa-user-plus fa-4x"></i>
+                        <i class="fa fa-user-plus fa-4x animated infinite bounce"></i>
                         <h3 id="event2">100+ Colleges</h3>
                         
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
                     <div class="about-content">
-                        <i class="fa fa-money fa-4x"></i>
+                        <i class="fa fa-money fa-4x animated infinite bounce"></i>
                         <h3 id="event3">5L+ Cash Prizes</h3>
                         
                     </div>
@@ -433,9 +440,8 @@
         <div class="container wow fadeIn">
             <div class="row text-center">
                 <div class="col-lg-12">
-                    <h2>Pricing</h2>
+                    <h2>WORKSHOPS</h2>
                     <hr class="colored">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quae, laborum, voluptate delectus odio doloremque error porro obcaecati nemo animi ducimus quaerat nostrum? Ab molestiae eaque et atque architecto reiciendis.</p>
                 </div>
             </div>
             <div class="row content-row">
@@ -521,9 +527,9 @@
         <div class="container wow fadeIn">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Us</h2>
+                    <h2>LOGIN/SIGNUP</h2>
                     <hr class="colored">
-                    <p>Please tell us about your next project and we will let you know what we can do to help you.</p>
+                    
                 </div>
             </div>
             <div class="row content-row">
