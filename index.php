@@ -12,6 +12,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
 
+    <!--Terminal CSS-->
+    <link href="assets/terminal/css/jquery.terminal.css" rel="stylesheet"/>
+
     <!--Particle Effects for Header -->
     <script src="http://threejs.org/build/three.min.js"></script>
     <script src="http://threejs.org/examples/js/renderers/Projector.js"></script>
@@ -518,9 +521,18 @@
                 
                     <center><h2>LOGIN/SIGNUP</h2></center>
                     <center><hr class="colored"></center>
-                    <div class="col-lg-12 text-center" id="terminal-login">
-                    
+                    <div class="row">
+                        <div class="col-md-6">.
+                            <div class="col-lg-12 text-center" id="terminal-login">
+                        
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                                <!--Login-->
+
+                        </div>
                     </div>
+                    
             </div>
             
         </div>
@@ -845,6 +857,27 @@
  
   });
  
+});
+
+   jQuery(function($, undefined) {
+    $('#terminal-login').terminal(function(command, term) {
+        if (command !== '') {
+            try {
+                var result = window.eval(command);
+                if (result !== undefined) {
+                    term.echo(new String(result));
+                }
+            } catch(e) {
+                term.error(new String(e));
+            }
+        } else {
+           term.echo('');
+        }
+    }, {
+        greetings: 'Signup for Samhita 16',
+        name: 'js_demo',
+        height: 200,
+        prompt: 'js> '});
 });
 
 
