@@ -55,9 +55,9 @@
     <link href="assets/css/plugins/animate.css" rel="stylesheet" type="text/css">
     <!-- Vitality Theme CSS -->
     <!-- Uncomment the color scheme you want to use. -->
-    <!-- <link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
-    <!--<link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
+    <!--<link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css">-->
+    <!--<link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css">-->
+    <link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> 
     <!-- <link href="assets/css/vitality-green.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
@@ -66,7 +66,7 @@
     <!-- <link href="assets/css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="assets/css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
     <!-- Style Switcher CSS - Demo Purposes Only! -->
-    <link id="changeable-colors" rel="stylesheet" href="assets/css/vitality-red.css">
+    <!--<link id="changeable-colors" rel="stylesheet" href="assets/css/vitality-red.css">-->
     <link href="assets/demo/style-switcher.css" rel="stylesheet">
     <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
