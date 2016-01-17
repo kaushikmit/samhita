@@ -445,6 +445,8 @@
     <section class="testimonials bg-gray" id="partners">
         <div class="container wow fadeIn">
             <h2>OUR PARTNERS</h2>
+            <hr class="colored">
+            <br>
             <div id="partners-slide">
           
               <div class="item"><img src="" width="80px" height="80px" alt="Owl Image" class="img-circle"></div>
@@ -466,16 +468,16 @@
                     <h2>WORKSHOPS</h2>
                     <hr class="colored">
                     <div class="row">
-                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
-                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
-                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle" id="workshop1"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle" id="workshop2"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle" id="workshop3"></div>
                     </div>
                     <br>
                     <br>
                     <div class="row">
-                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
-                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
-                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle" id="workshop4"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle" id="workshop5"></div>
+                          <div class="col-md-4"><img src="assets/img/back1.jpg" width="100px" height="100px"class="img-circle" id="workshop6"></div>
                     </div>
 
 
@@ -527,7 +529,7 @@
         <div class="container wow fadeIn">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>GET IN TOUCH WITH US</h2>
+                    <h2>GET IN TOUCH</h2>
                     <hr class="colored">
                     
                 </div>
@@ -762,9 +764,72 @@
         $(this).addClass("animated bounceIn");
         console.log('Hello')
     });
+    $(document).ready(function(){
+    $("#workshop1").mouseenter(function(){
+        $("#workshop1").width(200);
+        $("#workshop1").height(200);
+        $(this).css('border', "solid 2px red");  
+    });
+    $("#workshop1").mouseleave(function(){
+       $("#workshop1").width(100);
+       $("#workshop1").height(100);
+       $(this).css('border', "solid 1px black");  
+    });
+    $("#workshop2").mouseenter(function(){
+        $("#workshop2").width(200);
+        $("#workshop2").height(200);
+        $(this).css('border', "solid 2px red"); 
+    });
+    $("#workshop2").mouseleave(function(){
+       $("#workshop2").width(100);
+       $("#workshop2").height(100);
+       $(this).css('border', "solid 1px black");  
+    });
+    $("#workshop3").mouseenter(function(){
+        $("#workshop3").width(200);
+        $("#workshop3").height(200);
+        $(this).css('border', "solid 2px red"); 
+    });
+    $("#workshop3").mouseleave(function(){
+       $("#workshop3").width(100);
+       $("#workshop3").height(100);
+       $(this).css('border', "solid 1px black");  
+    });
+    $("#workshop4").mouseenter(function(){
+        $("#workshop4").width(200);
+        $("#workshop4").height(200);
+        $(this).css('border', "solid 2px red"); 
+    });
+    $("#workshop4").mouseleave(function(){
+       $("#workshop4").width(100);
+       $("#workshop4").height(100);
+       $(this).css('border', "solid 1px black");  
+    });
+    $("#workshop5").mouseenter(function(){
+        $("#workshop5").width(200);
+        $("#workshop5").height(200);
+        $(this).css('border', "solid 2px red"); 
+    });
+    $("#workshop5").mouseleave(function(){
+       $("#workshop5").width(100);
+       $("#workshop5").height(100);
+       $(this).css('border', "solid 1px black");  
+    });
+    $("#workshop6").mouseenter(function(){
+        $("#workshop6").width(200);
+        $("#workshop6").height(200);
+        $(this).css('border', "solid 2px red"); 
+    });
+    $("#workshop6").mouseleave(function(){
+       $("#workshop6").width(100);
+       $("#workshop6").height(100);
+       $(this).css('border', "solid 1px black");  
+    });
+
+});
 
     
-   $.notify("Samhita is scheduled on March 11,12", "info");
+   $.notify("Samhita is scheduled on March 11,12", "info",{clickToHide:true,autoHide:false});
    $.notify("Event Registrations have begun !", "info");
    $.notify("Workshop Registrations have begun !", "info");
 
