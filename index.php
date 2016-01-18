@@ -488,30 +488,12 @@
             </div>
             
     </section>
-    <section class="cta-form bg-dark">
+    <section class="cta-form bg-dark" id="terminalarena">
         <div class="container text-center">
-            <h3>Get Notified!</h3>
+            <h3>ATTENTION GEEKS !</h3>
             <hr class="colored">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- MailChimp Signup Form -->
-                    <div id="mc_embed_signup">
-                        <!-- Replace the form action in the line below with your MailChimp embed action! For more informatin on how to do this please visit the Docs! -->
-                        <form role="form" action="http://startbootstrap.us3.list-manage.com/subscribe/post?u=531af730d8629808bd96cf489&amp;id=afb284632f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                            <div class="input-group input-group-lg">
-                                <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email address...">
-                                <span class="input-group-btn">
-                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe!</button>
-                                </span>
-                            </div>
-                            <div id="mce-responses">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- End MailChimp Signup Form -->
-                </div>
+            <div class="row" id="terminal-login">
+                
             </div>
         </div>
     </section>
@@ -523,12 +505,20 @@
                     <center><hr class="colored"></center>
                     <div class="row">
                         <div class="col-md-6">.
-                            <div class="col-lg-12 text-center" id="terminal-login">
-                        
-                            </div>
+                            <center><h3>SIGNUP</h3></center>
+                            <form class="form-horizontal" action="process.php" method="POST">
+                              <div class="control-group">
+                                <label class="control-label">Name:</label>
+                                <div class="controls">
+                                  <input type="email" />
+                                  <p class="help-block"></p>
+                                </div>
+                              </div>
+                            </form>
                         </div>
                         <div class="col-md-6">
-                                <!--Login-->
+                            <center><h3>LOGIN</h3></center>
+
 
                         </div>
                     </div>
@@ -701,7 +691,7 @@
     <!-- Style Switcher - FOR DEMO PURPOSES ONLY -->
     <div id="style-switcher" class="close-style-switcher animated bounce">
         <!--Panel Button -->
-        <a class="panel-button"><i class="fa fa-gear"></i></a>
+        <a class="panel-button"><i class="fa fa-gear" id="dashboard-icon"></i></a>
         <!-- Colors -->
         <div class="segment">
             <h4>USER DASHBOARD</h4>
@@ -780,7 +770,7 @@
     $("#workshop1").mouseenter(function(){
         $("#workshop1").width(200);
         $("#workshop1").height(200);
-        $(this).css('border', "solid 2px red");  
+        $(this).css('border', "solid 2px blue");  
     });
     $("#workshop1").mouseleave(function(){
        $("#workshop1").width(100);
@@ -790,7 +780,7 @@
     $("#workshop2").mouseenter(function(){
         $("#workshop2").width(200);
         $("#workshop2").height(200);
-        $(this).css('border', "solid 2px red"); 
+        $(this).css('border', "solid 2px blue"); 
     });
     $("#workshop2").mouseleave(function(){
        $("#workshop2").width(100);
@@ -800,7 +790,7 @@
     $("#workshop3").mouseenter(function(){
         $("#workshop3").width(200);
         $("#workshop3").height(200);
-        $(this).css('border', "solid 2px red"); 
+        $(this).css('border', "solid 2px blue"); 
     });
     $("#workshop3").mouseleave(function(){
        $("#workshop3").width(100);
@@ -810,7 +800,7 @@
     $("#workshop4").mouseenter(function(){
         $("#workshop4").width(200);
         $("#workshop4").height(200);
-        $(this).css('border', "solid 2px red"); 
+        $(this).css('border', "solid 2px blue"); 
     });
     $("#workshop4").mouseleave(function(){
        $("#workshop4").width(100);
@@ -820,7 +810,7 @@
     $("#workshop5").mouseenter(function(){
         $("#workshop5").width(200);
         $("#workshop5").height(200);
-        $(this).css('border', "solid 2px red"); 
+        $(this).css('border', "solid 2px blue"); 
     });
     $("#workshop5").mouseleave(function(){
        $("#workshop5").width(100);
@@ -830,7 +820,7 @@
     $("#workshop6").mouseenter(function(){
         $("#workshop6").width(200);
         $("#workshop6").height(200);
-        $(this).css('border', "solid 2px red"); 
+        $(this).css('border', "solid 2px blue"); 
     });
     $("#workshop6").mouseleave(function(){
        $("#workshop6").width(100);
@@ -844,6 +834,10 @@
    $.notify("Samhita is scheduled on March 11,12", "info",{clickToHide:true,autoHide:false});
    $.notify("Event Registrations have begun !", "info");
    $.notify("Workshop Registrations have begun !", "info");
+
+    noty({text: '<a href="index.php#terminal-arena">Answer and win amazing weekly prizes</a>'});
+
+
 
    $(document).ready(function() {
  
@@ -873,11 +867,15 @@
         } else {
            term.echo('');
         }
+        if(command == 'name')
+        {
+            term.echo('Thanks for entering your name.What is your email id');
+        }
     }, {
-        greetings: 'Signup for Samhita 16',
+        greetings: 'ANSWER AND WIN EXCITING PRIZES',
         name: 'js_demo',
         height: 200,
-        prompt: 'js> '});
+        prompt: 'samhita16> '});
 });
 
 
